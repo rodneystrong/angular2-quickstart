@@ -5,4 +5,4 @@ import {Component} from '@angular/core';
   template: '<h1>What do you want to do before you die</h1>'
 })
 
-export class AppComponent{}
+export class WhateverComponent{}
