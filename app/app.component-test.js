@@ -9,21 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var platform_browser_1 = require('@angular/platform-browser');
-var app_component_1 = require('./app.component');
-var app_component_test_1 = require('./app.component-test');
-var AppModule = (function () {
-    function AppModule() {
+var TestComponent = (function () {
+    function TestComponent() {
     }
-    AppModule = __decorate([
-        core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule],
-            declarations: [app_component_1.AppComponent, app_component_test_1.TestComponent],
-            bootstrap: [app_component_1.AppComponent, app_component_test_1.TestComponent]
+    TestComponent = __decorate([
+        core_1.Component({
+            selector: 'my-test',
+            template: '<h2>What are you doing to accomplish that?</h2>'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppModule);
-    return AppModule;
+    ], TestComponent);
+    return TestComponent;
 }());
-exports.AppModule = AppModule;
-//# sourceMappingURL=app.module.js.map
+exports.TestComponent = TestComponent;
+//# sourceMappingURL=app.component-test.js.map
