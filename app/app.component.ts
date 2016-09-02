@@ -5,4 +5,5 @@ import {Component} from '@angular/core';
   template: '<h1>My first time go easy</h1>'
 })
 
+//im guessing the line below corresponds 
 export class AppComponent{}
