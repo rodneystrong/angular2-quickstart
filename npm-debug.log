@@ -1,6 +1,7 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/Users/aleeexkang/.nvm/versions/node/v6.3.0/bin/node',
 1 verbose cli   '/Users/aleeexkang/.nvm/versions/node/v6.3.0/bin/npm',
+<<<<<<< HEAD
 <<<<<<< 21209371fceed4034ffc9dbf3215ab2edc966aea
 1 verbose cli   'run',
 1 verbose cli   'tsc:w' ]
@@ -19,6 +20,8 @@
 14 verbose stack Error: angular2-quickstart@1.0.0 tsc:w: `tsc -w`
 14 verbose stack Exit status 1
 =======
+=======
+>>>>>>> 244133b32ce2ec768ded9c790451ac3047ad7c16
 1 verbose cli   'start' ]
 2 info using npm@3.10.3
 3 info using node@v6.3.0
@@ -34,7 +37,10 @@
 13 info lifecycle angular2-quickstart@1.0.0~start: Failed to exec start script
 14 verbose stack Error: angular2-quickstart@1.0.0 start: `tsc && concurrently "npm run tsc:w" "npm run lite" `
 14 verbose stack Exit status 2
+<<<<<<< HEAD
 >>>>>>> ok npm start threw an error saying it was lookin for AppComponent. Changing WhateverComponent bakc to AppComponent
+=======
+>>>>>>> 244133b32ce2ec768ded9c790451ac3047ad7c16
 14 verbose stack     at EventEmitter.<anonymous> (/Users/aleeexkang/.nvm/versions/node/v6.3.0/lib/node_modules/npm/lib/utils/lifecycle.js:242:16)
 14 verbose stack     at emitTwo (events.js:106:13)
 14 verbose stack     at EventEmitter.emit (events.js:191:7)
@@ -46,6 +52,7 @@
 15 verbose pkgid angular2-quickstart@1.0.0
 16 verbose cwd /Users/aleeexkang/git-repos/dm12/angular2-quickstart
 17 error Darwin 15.6.0
+<<<<<<< HEAD
 <<<<<<< 21209371fceed4034ffc9dbf3215ab2edc966aea
 18 error argv "/Users/aleeexkang/.nvm/versions/node/v6.3.0/bin/node" "/Users/aleeexkang/.nvm/versions/node/v6.3.0/bin/npm" "run" "tsc:w"
 19 error node v6.3.0
@@ -55,6 +62,8 @@
 22 error Exit status 1
 23 error Failed at the angular2-quickstart@1.0.0 tsc:w script 'tsc -w'.
 =======
+=======
+>>>>>>> 244133b32ce2ec768ded9c790451ac3047ad7c16
 18 error argv "/Users/aleeexkang/.nvm/versions/node/v6.3.0/bin/node" "/Users/aleeexkang/.nvm/versions/node/v6.3.0/bin/npm" "start"
 19 error node v6.3.0
 20 error npm  v3.10.3
@@ -62,16 +71,23 @@
 22 error angular2-quickstart@1.0.0 start: `tsc && concurrently "npm run tsc:w" "npm run lite" `
 22 error Exit status 2
 23 error Failed at the angular2-quickstart@1.0.0 start script 'tsc && concurrently "npm run tsc:w" "npm run lite" '.
+<<<<<<< HEAD
 >>>>>>> ok npm start threw an error saying it was lookin for AppComponent. Changing WhateverComponent bakc to AppComponent
+=======
+>>>>>>> 244133b32ce2ec768ded9c790451ac3047ad7c16
 23 error Make sure you have the latest version of node.js and npm installed.
 23 error If you do, this is most likely a problem with the angular2-quickstart package,
 23 error not with npm itself.
 23 error Tell the author that this fails on your system:
+<<<<<<< HEAD
 <<<<<<< 21209371fceed4034ffc9dbf3215ab2edc966aea
 23 error     tsc -w
 =======
 23 error     tsc && concurrently "npm run tsc:w" "npm run lite"
 >>>>>>> ok npm start threw an error saying it was lookin for AppComponent. Changing WhateverComponent bakc to AppComponent
+=======
+23 error     tsc && concurrently "npm run tsc:w" "npm run lite"
+>>>>>>> 244133b32ce2ec768ded9c790451ac3047ad7c16
 23 error You can get information on how to open an issue for this project with:
 23 error     npm bugs angular2-quickstart
 23 error Or if that isn't available, you can get their info via:
